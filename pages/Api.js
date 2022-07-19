@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const Api =axios.create({
-baseURL:"http://localhost:3000/"
+baseURL:"https://majorcampeonatocsgo.azurewebsites.net/apimajor/v1/"
 });
 
 export default Api

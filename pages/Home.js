@@ -19,17 +19,22 @@ export default function Home() {
       <Image style={estilo.imagem} source={require('../assets/home1.png')} />
       <Image style={estilo.imagem2} source={require('../assets/regras.png')} />
 
+
+
+
       
+      <Text style={estilo.Titulo}>Tenha acesso a transmissão ao vivo dos jogos</Text>
 
-
-
-      <TouchableOpacity style={estilo.botao} onPress={this._handleOpenWithWebBrows}>
-      <Image style={estilo.imagem3} source={require('../assets/adastr.png')} />
-      </TouchableOpacity>
 
       <TouchableOpacity style={estilo.botao} onPress={this._handleOpenWithWebBrowse}>
       <Image style={estilo.imagem4} source={require('../assets/twitch2.jpg')} />
       </TouchableOpacity>
+      
+      <TouchableOpacity style={estilo.botao} onPress={this._handleOpenWithWebBrows}>
+      <Image style={estilo.imagem3} source={require('../assets/adastr.png')} />
+      </TouchableOpacity>
+
+     
 
       <TouchableOpacity style={estilo.botao} onPress={this._handleOpenWithWebBrowser}>
       <Image style={estilo.imagem4} source={require('../assets/insta.png')} />
@@ -89,6 +94,14 @@ const estilo = StyleSheet.create({
     borderBottomRightRadius:10,
    
    
+  },
+  Titulo: {
+    textAlign: 'center',
+    fontSize: 25,
+    fontWeight: 'bold',
+
+    marginTop: 10,
+    color: 'white',
   },
   imagem3:{
     flex:1,

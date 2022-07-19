@@ -93,6 +93,7 @@ const estilo = StyleSheet.create({
   img2: {
     width: 395,
     height: 95,
+    marginTop:100
   },
    img2: {
     width: 395,
@@ -114,8 +115,8 @@ const estilo = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
     marginBottom: 0,
-    backgroundColor: 'white',
-    color: 'black',
+    backgroundColor: 'black',
+    color: 'white',
     marginTop:20,
     borderTopLeftRadius:20,
     borderTopRightRadius:20
